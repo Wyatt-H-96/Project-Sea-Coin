@@ -1,22 +1,13 @@
-Meteal detector PCB{
-  | Ref     | Part Description         | Suggested Type / Value          | Notes                                        |
-| ------- | ------------------------ | ------------------------------- | -------------------------------------------- |
-| J1      | Terminal Block, 2-pin    | 5 mm pitch screw terminal block | For 12 V DC power input                      |
-| U1      | 555 Timer IC             | NE555 or LM555                  | Standard timer IC, DIP-8 package             |
-| R1      | Resistor                 | 1 kΩ (1/4 W)                    | Sets charge timing for 555                   |
-| R2      | Resistor                 | 10 kΩ (1/4 W)                   | Sets discharge timing for 555                |
-| C1      | Capacitor                | 0.01 µF ceramic capacitor       | Timing capacitor for 555                     |
-| Q1      | NPN Transistor           | 2N2222, BC547, or similar       | Used as low-side switch to drive coil        |
-| R3      | Resistor                 | 1 kΩ (1/4 W)                    | Base resistor for transistor                 |
-| Coil    | Inductor (search coil)   | Depends on design, \~10-1000 µH | Your metal detector coil                     |
-| LED1    | Indicator LED (optional) | Any standard LED (5 mm)         | To indicate output pulses (optional)         |
-| R4      | Resistor                 | 470 Ω to 1 kΩ                   | Current limiting resistor for LED (optional) |
-| Arduino | Microcontroller board    | Arduino Uno                     | For reading detection signal                 |
-| C2      | Capacitor (optional)     | 0.01 µF ceramic                 | Decoupling capacitor near 555 Vcc pin        |
-| PCB     | Printed circut board     | FR4, Single sided, 1.6mm        | Fabricated by PCBway                         |
+3D Printer:
+      FLASHFORGE Adventurer 5M Pro
+      eSUN PLA+ Filament 1.75mm.
+      OVERTURE TPU High Speed Filament 1.75mm
 
-}
+Amazon:
+      Non-Contact Sensor Board Module Electronic Part Metal Detector DC 3V-5V 60mm.
+      Arduino Uno R4 WIFI.
+      28 AWG stranded wire.
+      JST-XH and DuPont Connector Kit.
+DF Robot:
+        
 
-Micro Controller{
-  Arduino Uno R4 WIFI
-}
