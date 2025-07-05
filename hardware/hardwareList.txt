@@ -1,3 +1,26 @@
+Robot Layout:
+      Body:
+            3D printed in PLA+. Gaskets for cutouts made with TPU to help seal the main body from water intrusion.
+            Wheels printed in PLA+ and tires in TPU.
+      Electronics:
+            Power:
+                  4 18650 lipo batteries in 2 separate packs. One for motor power and one for controller power. Both providing 5v max.
+            Main controller:
+                  Arduino UNO R4 Wifi.
+                  Terminal block hat for wiring simplicity.
+            Motor controllers.
+                  4 5v motor controllers for powering and triggering movements.
+            Metal detector controller:
+                  Sensor PCB board for electromagnetism. Detects metal objects beneath the ground.
+            Collision Detection:
+                  50m TOF Laser Ranging Sensor for object detection.
+            Level Detection:
+                  10 DOF IMU Sensor for stability.
+                  
+      Software:
+            Custom embedded C for robot performance and handling.
+            C++ using Qt framework to build the robots web interface.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3D Printer:
       FLASHFORGE Adventurer 5M Pro
       eSUN PLA+ Filament 1.75mm.
@@ -9,5 +32,8 @@ Amazon:
       28 AWG stranded wire.
       JST-XH and DuPont Connector Kit.
 DF Robot:
+      18650 battery holder boards
+      50m TOF Laser Ranging Sensor
+      10 DOF IMU Sensor
         
 
